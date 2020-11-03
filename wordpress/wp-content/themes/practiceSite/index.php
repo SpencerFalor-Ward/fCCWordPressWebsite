@@ -5,4 +5,5 @@ while (have_post()) : the_post();
     the_content();
 endwhile;
 endif;
+get_footer();
 ?>
