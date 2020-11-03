@@ -29,7 +29,7 @@ endif;
 
 // create another function that pulls in the themes of our style.css and javascript in the header and footer 
 function scripts_header(){
-    wp_enqueue_style('init', get_stylesheet_uri();)
+    wp_enqueue_style('init', get_stylesheet_uri());
 }
 
 function scripts_footer(){
